@@ -17,8 +17,12 @@ for(let i = 0; i < favoriteFoods.length; i++) {
 // "My #1 favorite food is Ramen" (copy/paste for all items)
 // "My #2 favorite food is Sushi"
 // ...etc.
-
-
+console.log("My #1 favorite food is Egg");
+console.log("My #2 favorite food is Bacon");
+console.log("My #3 favorite food is Ham");
+console.log("My #4 favorite food is Rice");
+console.log("My #5 favorite food is Spaghetti");
+console.log("My #6 favorite food is Potato");
 
 
 
@@ -27,10 +31,17 @@ for(let i = 0; i < favoriteFoods.length; i++) {
     // "I always recommend ____ to friends."
     // "Trust me — ____ is delicious."
 
-
+function printFoodRecommendation(foodName) {
+  console.log("Have you ever tried " + foodName);
+  console.log("I always recommend " + foodName);
+  console.log("Trust me - " + foodName + " is delicious.");
+}
 
 
 // 4b. Call the function at least 3 times
+printFoodRecommendation("Ham");
+printFoodRecommendation("Eggs");
+printFoodRecommendation("Spaghetti");
 
 
 
